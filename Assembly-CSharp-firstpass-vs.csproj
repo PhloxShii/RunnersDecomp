@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1863C17C-2749-F62C-5EFE-E27E4C2C5C43}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\CriAtom.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\CriAtomListener.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\CriAtomProjInfo.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\CriAtomServer.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\CriAtomSource.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomEx.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomEx3dListener.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomEx3dSource.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomExAcb.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomExAsrRack.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomExPlayback.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomExPlayer.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomExPlayerOutputAnalyzer.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomExSoundObject.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriAtom\NativeClasses\CriAtomExVoicePool.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriFs\CriFs.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriFs\CriFsServer.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriFs\CriFsWebInstaller.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\CriMana.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\CriManaAmbisonicSource.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\CriManaMovieController.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\CriManaMovieControllerForUI.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\CriManaMovieMaterial.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\Detail\RendererResource.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\Detail\RendererResources\AndroidH264Rgb.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\Detail\RendererResources\IOSH264Yuv.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\Detail\RendererResources\OSXH264Yuv.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\Detail\RendererResources\SofdecPrimeRgb.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\Detail\RendererResources\SofdecPrimeYuv.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriMana\Player.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriWare.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriWareErrorHandler.cs" />
+     <Compile Include="Assets\Plugins\CriWare\CriWareInitializer.cs" />
+     <Compile Include="Assets\Plugins\CriWare\DebugApi\CriAtomDebug.cs" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\AndroidH264Rgb\AndroidH264RgbAdditive.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Shader\ForwardRgbAdditive.shader" />
+     <None Include="Assets\Shader\Yuva2Rgba.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeRgb\SofdecPrimeRgbaAdditive.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeRgb\SofdecPrimeRgba.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Shader\ForwardRgba.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\AndroidH264Rgb\AndroidH264Rgb.shader" />
+     <None Include="Assets\Shader\Yuv2RgbAdditive.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeYuv\SofdecPrimeYuva.shader" />
+     <None Include="Assets\Plugins\Android\BaseGameUtils\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\IOSH264Yuv\IOSH264YuvAdditive.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeYuv\SofdecPrimeYuvaAdditive.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Shader\ForwardRgb.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Shader\ykHud_Lerp_Add_p100.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+     <None Include="Assets\Shader\ykHud_dau_p100.shader" />
+     <None Include="Assets\NGUI\ReadMe - 3.0.2.txt" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Plugins\Android\BaseGameUtils\res\values\gamehelper_strings.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\IOSH264Yuv\IOSH264Yuv.shader" />
+     <None Include="Assets\Shader\ykHud_dau_Add_p100.shader" />
+     <None Include="Assets\Shader\Yuva2RgbaAdditive.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+     <None Include="Assets\Plugins\Criware details.txt" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\OSXH264Yuv\OSXH264Yuv.shader" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Shader\Projector Multiply.shader" />
+     <None Include="Assets\Shader\ForwardRgbaAdditive.shader" />
+     <None Include="Assets\Shader\ykHud_Lerp_p100.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeRgb\SofdecPrimeRgbAdditive.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeYuv\SofdecPrimeYuv.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeYuv\SofdecPrimeYuvAdditive.shader" />
+     <None Include="Assets\Plugins\CriWare\CriMana\Resources\CriMana\SofdecPrimeRgb\SofdecPrimeRgb.shader" />
+     <None Include="Assets\Shader\ykHud_dau_Add_m1.shader" />
+     <None Include="Assets\Shader\Yuv2Rgb.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest-sample.xml" />
+     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

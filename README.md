@@ -1,3 +1,13 @@
+# Why this fork exists.
+
+I get that you need the specific versions of the SDKs and what not to build this, but not everyone has money to go and buy them. Some people just wanna be able to use the decompiled game to make levels or whatever.
+
+Like yeah piracy is bad and you SHOULD buy the sdk and ngui and what not. But some people just don't have the money to do so.
+
+So yeah, this fork comes with the specific versions of the SDKs and what not already installed, so now you can play the game in-editor without any bs.
+
+Phlox out.
+
 # Sonic Runners (2015) Decompilation
 
 This is a largely faithful decompilation of the final release of Sonic Runners (version 2.0.3). It was initially sourced from the Android version, but will build to any platform that Unity supports.

@@ -1,0 +1,152 @@
+Initialize engine version: 4.6.9f1 (44099fd26189)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.767 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\System.Xml.dll (this message is harmless)
+Platform assembly: C:\Users\YoPhlox\Documents\Unity\RunnersDecomp-master\Export\SonicRunners_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1771)
+
+debug SingletonGameObject auto delete !!! :DebugGameObject
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+GetLang:en
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+ServerSessionWatcher:Login
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+NetBase.Request [NetServerLogin]
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+URLRequestManager.ExecuteRequest:http://10.0.0.155:9001/Login/login/?  params:param=kNJ5Z7USZ2lkFFoFCV1arKG2dr/AczpbCMHSRV28ZQQozc/uLy890t0FBiYnHqVz0tnoXfpLyINjzUnMoqc0vBK2iyoy/vbKGc/HbcCxE0BZyqtW3UeUWHPEKy+IxG6CaLRnPkuZt9vWDifVn5ZNjgLlkUG5VVJ0Ne5R21GLpqmUgFiSbNhAVEnJfINcLW7JrYmQGOe7YqQKxVLf73vChU1M25WnmGYJTkvWJLv2UkzyfSwJNN+SEPoT4fRPqPuLl9Hd6M7bEuZstcGA39iWf/WE4B6UEnpR6cT402MEdzZj9v1moUMU2nPBfMNBvNuxHzdEanOv3FZ2Tn4t30fABQ==&secure=1&key=e32FF97F13398DE1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+CPlusPlusLink.DecodeServerResponseText
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+DecodeServerResponseText() = {"errorMessage":"\u6210\u529f","closeTime":1730955599,"seq":"0","server_time":1730940958,"statusCode":-10104,"assets_version":"049","client_data_version":"2.0.3","data_version":"15","info_version":"017","version":"2.0.3","key":"4evues256r"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+DecryptString = {"errorMessage":"\u6210\u529f","closeTime":1730955599,"seq":"0","server_time":1730940958,"statusCode":-10104,"assets_version":"049","client_data_version":"2.0.3","data_version":"15","info_version":"017","version":"2.0.3","key":"4evues256r"}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+>>>>>>>>>>>>> NetServerLogin : Result = -10104 <<<<<<<<<<<<<
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+GameModeTitle.ValidateSessionCallback
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+GameModeTitle.StateGameServerPreLogin:Finished
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+AssetBundleManager.Create
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+AssetBundleRequest:ablist
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+!!!!! AssetBundle.Result : Error : error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+AssetBundle.Result : Failed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+!!!!! AssetBundle.Result : Failure : error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Load Failed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+AssetBundleRequest:ablist
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+!!!!! AssetBundle.Result : Error : error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+AssetBundle.Result : Failed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+!!!!! AssetBundle.Result : Failure : error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Load Failed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+AssetBundleRequest:ablist
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+!!!!! AssetBundle.Result : Error : error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+AssetBundle.Result : Failed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+!!!!! AssetBundle.Result : Failure : error:1407742E:SSL routines:SSL23_GET_SERVER_HELLO:tlsv1 alert protocol version
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+Load Failed.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+HudNetworkConnct is Destroyed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+HudNetworkConnct is Destroyed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+HudNetworkConnct is Destroyed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
