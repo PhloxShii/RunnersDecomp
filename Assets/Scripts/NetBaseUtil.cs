@@ -9,32 +9,32 @@ internal class NetBaseUtil
 	
 	private static string[] mActionServerUrlTable = new string[11]
 	{
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/"
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/"
 	};
 	
 	private static string[] mSecureActionServerUrlTable = new string[11]
 	{
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/",
-		"http://10.0.0.155:9001/"
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/",
+		"http://localhost:9001/"
 	};
 	
 	private static string[] mServerTypeStringTable = new string[11]
@@ -54,32 +54,32 @@ internal class NetBaseUtil
 	
 	private static string[] mAssetURLTable = new string[11]
 	{
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/",
-		"https://tydevx.github.io/Runners-Assets/assets/"
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/",
+		"http://pbassets.fluofoxxo.pw:9002/assets/"
 	};
 	
 	private static string[] mInformationURLTable = new string[11]
 	{
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/",
-		"https://tydevx.github.io/Runners-Assets/information/"
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/",
+		"http://pbassets.fluofoxxo.pw:9002/information/"
 	};
 	
 	private static string mRedirectInstallPageUrl = "https://play.google.com/store/apps/details?id=com.sega.sonicrunners";
